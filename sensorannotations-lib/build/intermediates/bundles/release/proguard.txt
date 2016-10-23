@@ -1,4 +1,0 @@
--keep public class * implements com.dvoiss.sensorannotations.internal.Sensorbinder { public <init>(...); }
-
--keep class com.dvoiss.sensorannotations.*
--keepclasseswithmembernames class * { @com.dvoiss.sensorannotations.* <methods>; }

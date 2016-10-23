@@ -1,7 +1,7 @@
 import org.gradle.internal.jvm.Jvm
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.novoda.bintray-release'
 apply from: '../config/quality/quality.gradle'
 
 android {
@@ -21,14 +21,23 @@ android {
 }
 
 dependencies {
-  compile project(':annotations')
+  compile project(':sensorannotations-annotations')
   compile deps.supportannotations
 
-  testCompile project(':compiler')
+  testCompile project(':sensorannotations-compiler')
   testCompile deps.junit
   testCompile deps.truth
   testCompile deps.robolectric
   testCompile deps.compiletesting
   testCompile files(Jvm.current().getRuntimeJar())
   testCompile files(Jvm.current().getToolsJar())
+}
+
+publish {
+  userOrg = 'dvoiss'
+  groupId = 'com.dvoiss'
+  artifactId = 'sensorannotations'
+  version = project.version
+  description = 'Annotate methods to use as listeners for a specific sensor.'
+  website = 'https://github.com/dvoiss/sensorannotations'
 }

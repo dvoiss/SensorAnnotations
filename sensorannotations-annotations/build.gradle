@@ -1,13 +1,9 @@
 apply plugin: 'java'
-apply plugin: 'com.github.dcendents.android-maven'
 apply from: '../config/quality/quality.gradle'
 
 sourceCompatibility = rootProject.ext.sourceCompatibilityVersion
 targetCompatibility = rootProject.ext.targetCompatibilityVersion
 
 dependencies {
-  compile project(':annotations')
-  compile deps.javapoet
-  compile deps.checker
-  compile deps.autocommon
+  compileOnly deps.android
 }

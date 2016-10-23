@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'com.novoda.bintray-release'
+apply from: '../config/quality/quality.gradle'
+
+sourceCompatibility = rootProject.ext.sourceCompatibilityVersion
+targetCompatibility = rootProject.ext.targetCompatibilityVersion
+
+dependencies {
+  compile project(':sensorannotations-annotations')
+  compile deps.javapoet
+  compile deps.checker
+  compile deps.autocommon
+}
+
+publish {
+  userOrg = 'dvoiss'
+  groupId = 'com.dvoiss'
+  artifactId = 'sensorannotations-compiler'
+  version = project.version
+  description = 'Annotate methods to use as listeners for a specific sensor.'
+  website = 'https://github.com/dvoiss/sensorannotations'
+}

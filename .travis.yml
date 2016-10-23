@@ -19,8 +19,8 @@ cache:
   directories:
     - $HOME/.m2
     - $HOME/.gradle
-    - $HOME/.gradle/caches/
-    - $HOME/.gradle/wrapper/
+
+sudo: false
 
 script:
   - chmod +x ./gradlew

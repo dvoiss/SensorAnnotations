@@ -40,3 +40,8 @@ ext {
       mockito           : 'org.mockito:mockito-core:1.+'
   ]
 }
+
+// For travis CI:
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.14'
+}

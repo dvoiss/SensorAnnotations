@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'com.novoda.bintray-release'
 apply from: '../config/quality/quality.gradle'
 
 sourceCompatibility = rootProject.ext.sourceCompatibilityVersion

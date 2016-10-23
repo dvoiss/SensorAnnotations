@@ -1,6 +1,7 @@
 import org.gradle.internal.jvm.Jvm
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 apply from: '../config/quality/quality.gradle'
 
 android {

@@ -1,0 +1,42 @@
+buildscript {
+  repositories {
+    jcenter()
+    maven { url 'https://plugins.gradle.org/m2/' }
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:2.2.2'
+    classpath 'com.novoda:bintray-release:0.3.4'
+  }
+}
+
+allprojects {
+  repositories {
+    jcenter()
+  }
+}
+
+ext {
+  sourceCompatibilityVersion = JavaVersion.VERSION_1_7
+  targetCompatibilityVersion = JavaVersion.VERSION_1_7
+  compileSdkVersion = 25
+  buildToolsVersion = '25.0.0'
+  minSdkVersion = 9
+  supportVersion = '25.0.0'
+
+  deps = [
+      // Common
+      android           : 'com.google.android:android:4.1.1.4',
+      checker           : 'org.checkerframework:checker-qual:2.1.4',
+      javapoet          : 'com.squareup:javapoet:1.7.0',
+      autocommon        : 'com.google.auto:auto-common:0.6',
+      appcompat         : "com.android.support:appcompat-v7:$supportVersion",
+      supportannotations: "com.android.support:support-annotations:$supportVersion",
+
+      // Test
+      junit             : 'junit:junit:4.12',
+      truth             : 'com.google.truth:truth:0.28',
+      compiletesting    : 'com.google.testing.compile:compile-testing:0.9',
+      robolectric       : 'org.robolectric:robolectric:3.1.2',
+      mockito           : 'org.mockito:mockito-core:1.+'
+  ]
+}

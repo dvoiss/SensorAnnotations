@@ -1,0 +1,16 @@
+<resources>
+  <string name="app_name">SensorAnnotations Demo</string>
+
+  <string name="light_event_info">Light Event Info</string>
+  <string name="heart_rate_event_info">Heart Rate Event Info</string>
+  <string name="magnetic_field_event_info">Magnetic Field Event Info</string>
+  <string name="significant_motion_event_info">Significant Motion Event Info</string>
+
+  <string name="accelerometer_event_info">Accelerometer Event Info</string>
+  <string name="accelerometer_off">Begin Using Accelerometer</string>
+  <string name="accelerometer_on">Stop Using Accelerometer</string>
+
+  <string name="sensor_no_events">No Events Received Yet…</string>
+  <string name="sensor_not_available">Sensor Not Available</string>
+  <string name="sensor_not_bound">Sensor Not Bound</string>
+</resources>

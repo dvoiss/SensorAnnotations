@@ -1,0 +1,33 @@
+import org.gradle.internal.jvm.Jvm
+
+apply plugin: 'com.android.library'
+apply from: '../config/quality/quality.gradle'
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion rootProject.ext.buildToolsVersion
+
+  defaultConfig {
+    minSdkVersion rootProject.ext.minSdkVersion
+    consumerProguardFiles 'proguard-rules.txt'
+    testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+  }
+
+  compileOptions {
+    sourceCompatibility sourceCompatibilityVersion
+    targetCompatibility targetCompatibilityVersion
+  }
+}
+
+dependencies {
+  compile project(':sensorannotations-annotations')
+  compile deps.supportannotations
+
+  testCompile project(':sensorannotations-compiler')
+  testCompile deps.junit
+  testCompile deps.truth
+  testCompile deps.robolectric
+  testCompile deps.compiletesting
+  testCompile files(Jvm.current().getRuntimeJar())
+  testCompile files(Jvm.current().getToolsJar())
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dvoiss.sensorannotations.SensorAnnotationsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-10-23T11:03:56" hostname="dvoiss-macbook" time="4.123">
+  <properties/>
+  <testcase name="nullContextParameterThrowsException" classname="com.dvoiss.sensorannotations.SensorAnnotationsTest" time="4.056"/>
+  <testcase name="nullTargetParameterThrowsException" classname="com.dvoiss.sensorannotations.SensorAnnotationsTest" time="0.008"/>
+  <testcase name="bindingFrameworkPackagesAreNotCached" classname="com.dvoiss.sensorannotations.SensorAnnotationsTest" time="0.037"/>
+  <testcase name="findsNoOpViewBinderWithInvalidConstructor" classname="com.dvoiss.sensorannotations.SensorAnnotationsTest" time="0.009"/>
+  <testcase name="validTargetAndNullContextParameterThrowsException" classname="com.dvoiss.sensorannotations.SensorAnnotationsTest" time="0.009"/>
+  <system-out><![CDATA[D/SensorAnnotations: Looking up sensor binder for android.app.Application
+D/SensorAnnotations: Reached framework class. Abandoning search.
+D/SensorAnnotations: Looking up sensor binder for java.lang.Object
+D/SensorAnnotations: Reached framework class. Abandoning search.
+D/SensorAnnotations: Looking up sensor binder for com.dvoiss.sensorannotations.SensorAnnotationsTest$2Example
+D/SensorAnnotations: Not found. Trying superclass java.lang.Object
+D/SensorAnnotations: Reached framework class. Abandoning search.
+]]></system-out>
+  <system-err><![CDATA[No such manifest file: build/intermediates/manifests/full/release/AndroidManifest.xml
+No such manifest file: build/intermediates/manifests/full/release/AndroidManifest.xml
+No such manifest file: build/intermediates/manifests/full/release/AndroidManifest.xml
+No such manifest file: build/intermediates/manifests/full/release/AndroidManifest.xml
+No such manifest file: build/intermediates/manifests/full/release/AndroidManifest.xml
+]]></system-err>
+</testsuite>

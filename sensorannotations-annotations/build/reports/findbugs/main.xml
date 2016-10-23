@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1477220600338" analysisTimestamp="1477220600500" release="">
+  <Project projectName="">
+    <Jar>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/build/classes/main/com/dvoiss/sensorannotations/internal/ListenerMethod.class</Jar>
+    <Jar>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/build/classes/main/com/dvoiss/sensorannotations/OnAccuracyChanged.class</Jar>
+    <Jar>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/build/classes/main/com/dvoiss/sensorannotations/OnSensorChanged.class</Jar>
+    <Jar>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/build/classes/main/com/dvoiss/sensorannotations/OnSensorNotAvailable.class</Jar>
+    <Jar>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/build/classes/main/com/dvoiss/sensorannotations/OnTrigger.class</Jar>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/com.google.android/android/4.1.1.4/3fb039385e71e9aa2ba547ea9ea8caa34a4ffac7/android-4.1.1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.0.1/1d7d28fa738bdbfe4fbd895d9486308999bdf440/httpclient-4.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/org.khronos/opengl-api/gl1.1-android-2.1_r1/8827d279add29cf9115820671e7879de7bf80390/opengl-api-gl1.1-android-2.1_r1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/xerces/xmlParserAPIs/2.6.2/65acede1e5305bd2b92213d7b5761328c6f4fd9/xmlParserAPIs-2.6.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/9b988ea84b9e4e9f1874e390ce099b8ac12cfff5/xpp3-1.1.4c.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/org.json/json/20080701/d652f102185530c93b66158b1859f35d45687258/json-20080701.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.0.1/e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/davidvoiss/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.3/fd32786786e2adb664d5ecc965da47629dca14ba/commons-codec-1.3.jar</AuxClasspathEntry>
+    <SrcDir>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/src/main/java/com/dvoiss/sensorannotations/internal/ListenerMethod.java</SrcDir>
+    <SrcDir>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/src/main/java/com/dvoiss/sensorannotations/OnAccuracyChanged.java</SrcDir>
+    <SrcDir>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/src/main/java/com/dvoiss/sensorannotations/OnSensorChanged.java</SrcDir>
+    <SrcDir>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/src/main/java/com/dvoiss/sensorannotations/OnSensorNotAvailable.java</SrcDir>
+    <SrcDir>/Users/davidvoiss/dev/__projects/SensorAnnotations/sensorannotations-annotations/src/main/java/com/dvoiss/sensorannotations/OnTrigger.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 23 Oct 2016 04:03:20 -0700" total_classes="5" referenced_classes="18" total_bugs="0" total_size="11" num_packages="2" java_version="1.8.0_65" vm_version="25.65-b01" cpu_seconds="5.15" clock_seconds="5.79" peak_mbytes="74.23" alloc_mbytes="1820.50" gc_seconds="0.06">
+    <PackageStats package="com.dvoiss.sensorannotations" total_bugs="0" total_types="4" total_size="9">
+      <ClassStats class="com.dvoiss.sensorannotations.OnAccuracyChanged" sourceFile="OnAccuracyChanged.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.dvoiss.sensorannotations.OnSensorChanged" sourceFile="OnSensorChanged.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.dvoiss.sensorannotations.OnSensorNotAvailable" sourceFile="OnSensorNotAvailable.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.dvoiss.sensorannotations.OnTrigger" sourceFile="OnTrigger.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.dvoiss.sensorannotations.internal" total_bugs="0" total_types="1" total_size="2">
+      <ClassStats class="com.dvoiss.sensorannotations.internal.ListenerMethod" sourceFile="ListenerMethod.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1061" invocations="291" avgMicrosecondsPerInvocation="3646" maxMicrosecondsPerInvocation="97316" standardDeviationMircosecondsPerInvocation="12400"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="380" invocations="26" avgMicrosecondsPerInvocation="14628" maxMicrosecondsPerInvocation="375702" standardDeviationMircosecondsPerInvocation="72215"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="250" invocations="294" avgMicrosecondsPerInvocation="851" maxMicrosecondsPerInvocation="83991" standardDeviationMircosecondsPerInvocation="7277"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="206" invocations="18" avgMicrosecondsPerInvocation="11475" maxMicrosecondsPerInvocation="113602" standardDeviationMircosecondsPerInvocation="28157"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="198" invocations="257" avgMicrosecondsPerInvocation="773" maxMicrosecondsPerInvocation="92035" standardDeviationMircosecondsPerInvocation="6168"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="174" invocations="18" avgMicrosecondsPerInvocation="9689" maxMicrosecondsPerInvocation="120022" standardDeviationMircosecondsPerInvocation="28342"/>
+      <ClassProfile name="edu.umd.cs.findbugs.NonReportingDetectorToDetector2Adapter" totalMilliseconds="124" invocations="244" avgMicrosecondsPerInvocation="509" maxMicrosecondsPerInvocation="122239" standardDeviationMircosecondsPerInvocation="7808"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="118" invocations="18" avgMicrosecondsPerInvocation="6589" maxMicrosecondsPerInvocation="59154" standardDeviationMircosecondsPerInvocation="15678"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="114" invocations="33" avgMicrosecondsPerInvocation="3478" maxMicrosecondsPerInvocation="18783" standardDeviationMircosecondsPerInvocation="5096"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

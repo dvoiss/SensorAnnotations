@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dvoiss.sensorannotations.BindOnAccuracyChangedTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-10-23T11:03:53" hostname="dvoiss-macbook" time="1.122">
+  <properties/>
+  <testcase name="bindOnAccuracyChangedFailsWithInvalidNumberOfMethodParameter" classname="com.dvoiss.sensorannotations.BindOnAccuracyChangedTest" time="0.256"/>
+  <testcase name="bindOnAccuracyChangedFailsWithInvalidMethodParameter" classname="com.dvoiss.sensorannotations.BindOnAccuracyChangedTest" time="0.218"/>
+  <testcase name="bindOnAccuracyChangedSucceeds" classname="com.dvoiss.sensorannotations.BindOnAccuracyChangedTest" time="0.521"/>
+  <testcase name="bindOnAccuracyChangedFailsWithInvalidAnnotationParameter" classname="com.dvoiss.sensorannotations.BindOnAccuracyChangedTest" time="0.124"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

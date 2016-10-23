@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+apply from: '../config/quality/quality.gradle'
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion rootProject.ext.buildToolsVersion
+
+  defaultConfig {
+    applicationId "com.example.sensorannotations"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.compileSdkVersion
+    versionCode 1
+    versionName "1.0"
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled true
+    }
+    debug {
+      minifyEnabled true
+      debuggable true
+    }
+  }
+
+  lintOptions {
+    abortOnError false
+  }
+
+  compileOptions {
+    sourceCompatibility sourceCompatibilityVersion
+    targetCompatibility targetCompatibilityVersion
+  }
+}
+
+dependencies {
+  annotationProcessor project(':sensorannotations-compiler')
+  annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+  compile project(':sensorannotations-lib')
+  compile deps.appcompat
+  compile 'com.jakewharton:butterknife:8.4.0'
+}

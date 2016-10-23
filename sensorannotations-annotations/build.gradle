@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply from: '../config/quality/quality.gradle'
+
+sourceCompatibility = rootProject.ext.sourceCompatibilityVersion
+targetCompatibility = rootProject.ext.targetCompatibilityVersion
+
+dependencies {
+  compileOnly deps.android
+}

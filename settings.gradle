@@ -1,0 +1,1 @@
+include ':app', ':sensorannotations-annotations', ':sensorannotations-compiler', ':sensorannotations-lib'

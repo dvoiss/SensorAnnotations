@@ -5,7 +5,7 @@ buildscript {
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:2.2.2'
-    classpath 'com.novoda:bintray-release:0.3.4'
+    classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
   }
 }
 
@@ -41,4 +41,10 @@ ext {
       robolectric       : 'org.robolectric:robolectric:3.1.2',
       mockito           : 'org.mockito:mockito-core:1.+'
   ]
+}
+
+group = "com.github.dvoiss"
+
+allprojects {
+  version = "1.0.0"
 }

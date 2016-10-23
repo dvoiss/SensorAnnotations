@@ -18,10 +18,6 @@
       </intent-filter>
     </activity>
 
-    <uses-feature
-        android:name="android.hardware.sensor.accelerometer"
-        android:required="true"/>
-
   </application>
 
 </manifest>

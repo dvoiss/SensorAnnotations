@@ -34,10 +34,10 @@ android {
 }
 
 dependencies {
-  annotationProcessor project(':sensorannotations-compiler')
+  annotationProcessor project(':compiler')
   annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 
-  compile project(':sensorannotations-lib')
+  compile project(':library')
   compile deps.appcompat
   compile 'com.jakewharton:butterknife:8.4.0'
 }

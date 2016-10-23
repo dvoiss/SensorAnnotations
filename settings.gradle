@@ -1,1 +1,1 @@
-include ':app', ':sensorannotations-annotations', ':sensorannotations-compiler', ':sensorannotations-lib'
+include ':app', ':annotations', ':compiler', ':library'

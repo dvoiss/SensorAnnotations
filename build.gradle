@@ -16,6 +16,8 @@ allprojects {
 }
 
 ext {
+  version = "1.0.0"
+
   sourceCompatibilityVersion = JavaVersion.VERSION_1_7
   targetCompatibilityVersion = JavaVersion.VERSION_1_7
   compileSdkVersion = 24
@@ -44,5 +46,5 @@ ext {
 group = "com.github.dvoiss"
 
 allprojects {
-  version = "0.1.0"
+  version = "1.0.0"
 }

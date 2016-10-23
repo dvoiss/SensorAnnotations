@@ -2,6 +2,8 @@
 
 Annotate methods to use as listeners for sensor events.
 
+[![Build Status](https://travis-ci.org/dvoiss/SensorAnnotations.svg?branch=master)](https://travis-ci.org/dvoiss/SensorAnnotations)
+
 ```java
 public class MyActivity extends Activity {
     /**

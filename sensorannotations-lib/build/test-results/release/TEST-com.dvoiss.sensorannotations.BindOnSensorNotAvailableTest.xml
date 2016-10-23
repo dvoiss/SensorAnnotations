@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.dvoiss.sensorannotations.BindOnSensorNotAvailableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-10-23T11:03:55" hostname="dvoiss-macbook" time="0.69">
-  <properties/>
-  <testcase name="bindOnSensorNotAvailableFailsWithInvalidNumberOfMethodParameter" classname="com.dvoiss.sensorannotations.BindOnSensorNotAvailableTest" time="0.091"/>
-  <testcase name="bindOnSensorNotAvailableSucceeds" classname="com.dvoiss.sensorannotations.BindOnSensorNotAvailableTest" time="0.319"/>
-  <testcase name="bindOnSensorNotAvailableWithInvalidAnnotationParameter" classname="com.dvoiss.sensorannotations.BindOnSensorNotAvailableTest" time="0.278"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

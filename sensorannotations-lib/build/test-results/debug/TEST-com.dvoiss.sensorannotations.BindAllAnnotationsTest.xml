@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.dvoiss.sensorannotations.BindAllAnnotationsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-23T11:03:31" hostname="dvoiss-macbook" time="3.842">
-  <properties/>
-  <testcase name="bindAllSucceeds" classname="com.dvoiss.sensorannotations.BindAllAnnotationsTest" time="3.842"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -23,7 +23,7 @@ import java.util.Map;
  * (<a href="https://github.com/JakeWharton/butterknife">https://github.com/JakeWharton/butterknife</a>).
  */
 public class SensorAnnotations {
-    private static final boolean DEBUG_LOGGING = true;//BuildConfig.DEBUG;
+    private static final boolean DEBUG_LOGGING = BuildConfig.DEBUG;
     private static final String TAG = SensorAnnotations.class.getSimpleName();
 
     private static final String ANDROID_PREFIX = "android.";

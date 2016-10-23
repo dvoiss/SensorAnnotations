@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.dvoiss.sensorannotations.BindOnTriggerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-23T11:03:37" hostname="dvoiss-macbook" time="0.367">
-  <properties/>
-  <testcase name="bindOnTriggerSucceeds" classname="com.dvoiss.sensorannotations.BindOnTriggerTest" time="0.305"/>
-  <testcase name="bindOnTriggerFailsWithInvalidNumberOfMethodParameter" classname="com.dvoiss.sensorannotations.BindOnTriggerTest" time="0.062"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

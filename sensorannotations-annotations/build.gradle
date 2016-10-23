@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'com.novoda.bintray-release'
 apply from: '../config/quality/quality.gradle'
 
 sourceCompatibility = rootProject.ext.sourceCompatibilityVersion
@@ -6,4 +7,13 @@ targetCompatibility = rootProject.ext.targetCompatibilityVersion
 
 dependencies {
   compileOnly deps.android
+}
+
+publish {
+  userOrg = 'dvoiss'
+  groupId = 'com.dvoiss'
+  artifactId = 'sensorannotations-annotations'
+  publishVersion = rootProject.ext.version
+  description = 'Annotate methods to use as listeners for a specific sensor.'
+  website = 'https://github.com/dvoiss/sensorannotations'
 }

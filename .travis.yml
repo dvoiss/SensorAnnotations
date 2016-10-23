@@ -6,14 +6,25 @@ android:
     - platform-tools
     - build-tools-24.0.2
     - android-24
+    - extra-android-support
     - extra-android-m2repository
 
 jdk:
   - oraclejdk8
 
+before_cache:
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+
 cache:
   directories:
     - $HOME/.m2
     - $HOME/.gradle
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
 
-script: ./gradlew check
+script:
+  - chmod +x ./gradlew
+  - ./gradlew clean check
+
+notifications:
+  email: false

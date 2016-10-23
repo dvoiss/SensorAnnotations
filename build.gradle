@@ -16,6 +16,8 @@ allprojects {
 }
 
 ext {
+  version = "1.0.0"
+
   sourceCompatibilityVersion = JavaVersion.VERSION_1_7
   targetCompatibilityVersion = JavaVersion.VERSION_1_7
   compileSdkVersion = 24

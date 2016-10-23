@@ -84,8 +84,8 @@ buildscript {
 apply plugin: 'com.neenbedankt.android-apt'
 
 dependencies {
-    compile 'com.dvoiss.sensorannotations:sensorannotations:1.0.0'
-    apt 'com.dvoiss.sensorannotations:sensorannotations-compiler:1.0.0'
+    compile 'com.dvoiss:sensorannotations:1.0.0'
+    apt 'com.dvoiss:sensorannotations-compiler:1.0.0'
 }
 ```
 
@@ -93,7 +93,7 @@ Using Android Gradle Plugin version 2.2.0+:
 
 ```groovy
 dependencies {
-    compile 'com.dvoiss.sensorannotations:sensorannotations:1.0.0'
-    annotationProcessor 'com.dvoiss.sensorannotations:sensorannotations-compiler:1.0.0'
+    compile 'com.dvoiss:sensorannotations:1.0.0'
+    annotationProcessor 'com.dvoiss:sensorannotations-compiler:1.0.0'
 }
 ```

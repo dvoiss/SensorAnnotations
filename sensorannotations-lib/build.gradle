@@ -31,3 +31,12 @@ dependencies {
   testCompile files(Jvm.current().getRuntimeJar())
   testCompile files(Jvm.current().getToolsJar())
 }
+
+publish {
+  userOrg = 'dvoiss'
+  groupId = 'com.dvoiss'
+  artifactId = 'sensorannotations'
+  version = project.version
+  description = 'Annotate methods to use as listeners for a specific sensor.'
+  website = 'https://github.com/dvoiss/sensorannotations'
+}

@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'com.github.dcendents.android-maven'
 apply from: '../config/quality/quality.gradle'
 
 sourceCompatibility = rootProject.ext.sourceCompatibilityVersion

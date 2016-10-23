@@ -37,7 +37,7 @@ publish {
   userOrg = 'dvoiss'
   groupId = 'com.dvoiss'
   artifactId = 'sensorannotations'
-  version = project.version
+  publishVersion = rootProject.ext.version
   description = 'Annotate methods to use as listeners for a specific sensor.'
   website = 'https://github.com/dvoiss/sensorannotations'
 }

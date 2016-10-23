@@ -16,7 +16,7 @@ allprojects {
 }
 
 ext {
-  version = "1.0.0"
+  version = "0.1.0"
 
   sourceCompatibilityVersion = JavaVersion.VERSION_1_7
   targetCompatibilityVersion = JavaVersion.VERSION_1_7

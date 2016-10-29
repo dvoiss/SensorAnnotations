@@ -67,6 +67,10 @@ SensorAnnotations.bind(this, context);
 
 The `@OnTrigger` annotation is a specific annotation for sensors of `TYPE_SIGNIFICANT_MOTION` (introduced in 4.3). This type has a different method and parameter than the others. For more info see the Android docs on [Using the Significant Motion Sensor](https://developer.android.com/guide/topics/sensors/sensors_motion.html#sensors-motion-significant).
 
+## View the Demo app for usage
+
+![SensorAnnotations Sample App](https://raw.github.com/dvoiss/SensorAnnotations/master/app/screen.png)
+
 ## How does it work?
 
 A binding class is created for each class that has annotations. In the example app, the classes `MainActivity` and `AccelerometerManager` will have two classes generated at compile time: `MainActivity$$SensorBinder` and `AccelerometerManager$$SensorBinder`. Because these classes are generated at compile time no reflection is needed.

@@ -5,6 +5,7 @@ Annotate methods to use as listeners for sensor events.
 [![Build Status](https://img.shields.io/travis/dvoiss/SensorAnnotations.svg?style=flat-square)](https://travis-ci.org/dvoiss/SensorAnnotations)
 [![Download](https://api.bintray.com/packages/dvoiss/maven/sensorannotations/images/download.svg)](https://bintray.com/dvoiss/maven/sensorannotations/_latestVersion)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sensor%20Annotations-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4593)
+[![Awesome Android #22](https://img.shields.io/badge/Awesome%20Android-%2322-green.svg?style=true)](https://android.libhunt.com/newsletter/22)
 
 ```java
 public class MyActivity extends Activity {
